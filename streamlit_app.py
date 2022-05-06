@@ -53,6 +53,6 @@ if share_button:
 
 # For now, always show the links, since otherwise they'd disappear on S4A
 # But ideally we'd only show links after "Share" is clicked, to reduce confusion & complexity
-EDIT_URL = f"http://share.streamlit.io/akrolsmir/streamlit-snippet/main?snippet_id={snippet_id}"
-PREVIEW_URL = f"https://share.streamlit.io/akrolsmir/streamlit-snippet/main/preview.py?snippet_id={snippet_id}"
+EDIT_URL = f"http://share.streamlit.io/akrolsmir/snippet2/main?snippet_id={snippet_id}"
+PREVIEW_URL = f"https://share.streamlit.io/akrolsmir/snippet2/main/preview.py?snippet_id={snippet_id}"
 right_pane.write(f"Last saved as {EDIT_URL} ([preview]({PREVIEW_URL}))")
