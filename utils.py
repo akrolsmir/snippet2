@@ -6,7 +6,7 @@ import base64
 import streamlit as st
 
 
-FIRESTORE_URL = "https://firestore.googleapis.com/v1/projects/plain-twig/databases/(default)/documents/"
+FIRESTORE_URL = "https://firestore.googleapis.com/v1/projects/snippets2-1eaf6/databases/(default)/documents/"
 
 # These could be generalized to other apps using Firestore
 def get_data(table, id):
