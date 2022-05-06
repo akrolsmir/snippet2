@@ -9,13 +9,13 @@ st.set_page_config(
     layout="wide", page_title="Streamlit Snippets", page_icon=scissors_icon
 )
 
-left_pane, right_pane = st.beta_columns(2)
+left_pane, right_pane = st.columns(2)
 
 with right_pane:
     st.subheader("Code editor")
 
     # Side by side execbox:
-    execbox_container = st.beta_container()
+    execbox_container = st.container()
 
     # Share button:
     share_button = st.button("Share your work 🎈")
