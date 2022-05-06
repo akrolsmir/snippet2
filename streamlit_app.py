@@ -18,7 +18,7 @@ with right_pane:
     execbox_container = st.container()
 
     # Share button:
-    share_button = st.button("Share your work 🎈")
+    share_button = st.button("Save 🎈")
 
 # Download code by snippet_id
 snippet_id = "iL_T1W23"
@@ -55,4 +55,6 @@ if share_button:
 # But ideally we'd only show links after "Share" is clicked, to reduce confusion & complexity
 EDIT_URL = f"http://share.streamlit.io/akrolsmir/snippet2/main?snippet_id={snippet_id}"
 PREVIEW_URL = f"https://share.streamlit.io/akrolsmir/snippet2/main/preview.py?snippet_id={snippet_id}"
-right_pane.write(f"Last saved as {EDIT_URL} ([preview]({PREVIEW_URL}))")
+right_pane.write(f"Last saved as {EDIT_URL}")
+right_pane.write(f"Share your app using [this preview]({PREVIEW_URL})")
+
